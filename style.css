@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+#header{
+    padding: 15px 80px;
+    background-color: rgb(0, 24, 34);
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+
+}
+
+.nav-bar{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+.login
+{
+    display: flex;
+    gap: 1em;
+}
+#main{
+    background-color: rgb(255, 255, 255);
+}
+
+.section1
+{
+    margin: 2.5% 6% ;
+}
+.section1 img{
+    height: 81vh;
+    border-radius: 20px;
+}
+.section2{
+    margin: 80px;
+    color: rgb(0, 0, 0,0.8);
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 h2, h5, .section3 h2,h5{
+    text-align: center;
+}
+
+.custom-numbered-list {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-numbered-list li {
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.custom-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(230, 225, 229); 
+  color:rgb(0, 0, 0, 0.5);
+  border-radius: 50%; 
+  font-weight: normal;
+  margin-right: 5px;
+}
+
+.section2-img-list{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.section2-list{
+    padding-top: 70px;
+    display: flex;
+    font-size: medium;
+    flex-direction: column;
+}
+
+.section2-list h5, ul li{
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+.btn button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 30, 108);
+    border-radius: 25px;
+}
+
+.section2-video{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.section2-video div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section3{
+    padding: 10px 15px 15px 20px;
+    background-color: rgb(239, 245, 255);
+}
+
+.figures{
+    display: flex;
+    justify-content: space-around;
+
+}
+figcaption 
+{
+    text-align: center;
+}
+.section3-btn{
+    padding-top: 40px;
+    display: flex;
+    gap: 5em;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section3-btn span
+{
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+}
+
+.section3-btn button{
+    height: 50px;
+    width: 150px;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 30, 108);
+    border-style: none;
+    border-radius: 25px;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.section4 img{
+    padding-bottom: 10px;
+}
+
+.section4 p{
+    font-size: 18px;
+}
+
+#footer
+{
+    background-color: rgb(0, 23, 34);
+    color: rgb(255, 255, 255);
+}
+.miscellaneous{
+    background-color: rgb(0, 23, 34);
+    color: rgb(255, 255, 255);
+}
